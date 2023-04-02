@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    
+    background-image: url(../img/ramen.jpg);
+    /* h1とｐだけのheaderのサイズに合わせた画像 */
+    background-size: cover;
+    background-position: top center;
+    /* 画像の余白をふくらませる */
+    padding: 20px 0 100px 20px;
+}
+
+.header h1 {
+    color: antiquewhite;
+}
+
+.header p {
+    color:antiquewhite
+}
+
+.navi {
+    width: 100%;
+}
+
+.navi ul {
+    display: flex;
+    list-style: none;
+}
+
+.navi ul li {
+    margin-right: 10px;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+}
+
+.contents {
+    width: 70%;
+}
+
+.contents img {
+    width: 100%;
+}
+
+.menu {
+    width: 30%;
+    padding-left: 30px;
+}
+
+.footer {
+    /* width: 100%; */
+    background-color: sienna;
+    background-size: cover;
+    background-position: bottom center;
+    padding: 20px 0 10px 20px;
+}
+
+.footer p {
+    color: antiquewhite;
+}
